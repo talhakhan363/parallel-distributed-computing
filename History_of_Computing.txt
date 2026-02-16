@@ -1,0 +1,15 @@
+TOPIC: THE EVOLUTION OF PERFORMANCE
+--------------------------------------------------
+1. THE SEQUENTIAL ERA (1940s - 2004)
+   - Based on Von Neumann Architecture (SISD).
+   - Performance improved via "Frequency Scaling" (increasing GHz).
+   - Moore’s Law: Transistors doubled every 2 years.
+
+2. THE POWER WALL (Circa 2004)
+   - Physical Limit: Increasing clock speed created unmanageable heat.
+   - Result: Shift from making one core "faster" to adding "more" cores.
+
+3. THE MODERN PIVOT
+   - Transition from Sequential Scaling to Parallel Scaling.
+   - Software must now be written to use multiple cores/nodes simultaneously.
+--------------------------------------------------
