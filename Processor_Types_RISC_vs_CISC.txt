@@ -1,0 +1,16 @@
+TOPIC: ARCHITECTURAL TYPES (RISC vs. CISC)
+--------------------------------------------------
+1. CISC (Complex Instruction Set Computer)
+   - Philosophy: "One instruction, many tasks."
+   - Examples: Intel/AMD x86 (Standard Laptops).
+   - Nature: Multi-clock cycle instructions; variable length.
+
+2. RISC (Reduced Instruction Set Computer)
+   - Philosophy: "Simple instructions, done very fast."
+   - Examples: ARM (Phones/Macs), PowerPC.
+   - Nature: Fixed length; executed in single clock cycle.
+
+3. RELEVANCE TO PDC
+   - RISC is ideal for "Pipelining" and "Parallelism."
+   - Modern GPUs follow RISC-style philosophies for high-speed simple math.
+--------------------------------------------------
