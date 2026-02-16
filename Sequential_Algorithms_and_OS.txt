@@ -1,0 +1,15 @@
+TOPIC: SEQUENTIAL LOGIC & THE OS ROLE
+--------------------------------------------------
+1. SEQUENTIAL ALGORITHMS
+   - Definition: A step-by-step process where Step N+1 waits for Step N.
+   - Bottleneck: Only utilizes 1 CPU core; others remain idle.
+
+2. OPERATING SYSTEM (OS) AS MANAGER
+   - Single Thread of Execution: Keeps track of one Program Counter (PC).
+   - The Memory Wall: CPU is faster than RAM; sequential tasks spend 
+     most time "waiting" for data.
+
+3. KEY TAKEAWAY
+   - Parallel and Distributed Computing aims to eliminate idle CPU time 
+     by breaking the "One-Way Street" of sequential logic.
+--------------------------------------------------
