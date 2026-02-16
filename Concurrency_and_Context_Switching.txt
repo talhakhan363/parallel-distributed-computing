@@ -1,0 +1,15 @@
+TOPIC: CONCURRENCY vs. PARALLELISM & CONTEXT SWITCHING
+--------------------------------------------------
+1. CONCURRENCY (Planning)
+   - Managing multiple tasks by switching between them (interleaving).
+   - "Juggling" analogy: One person handling three balls.
+
+2. PARALLELISM (Executing)
+   - Doing multiple tasks at the exact same microsecond.
+   - Requires multiple physical cores/processors.
+
+3. CONTEXT SWITCHING
+   - The OS "Bookmark" process. 
+   - Saves current state (PCB) to pause Task A and load Task B.
+   - High Overhead: Too much switching slows down the system (Thrashing).
+--------------------------------------------------
