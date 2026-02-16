@@ -1,0 +1,18 @@
+TOPIC: CLASSIFYING PARALLEL SYSTEMS (FLYNN'S TAXONOMY)
+--------------------------------------------------
+1. SISD (Single Instruction, Single Data)
+   - Standard sequential computer; one-on-one processing.
+
+2. SIMD (Single Instruction, Multiple Data)
+   - One command controls many processors.
+   - Examples: Vector/Array processors and GPUs (CUDA Programming).
+
+3. MIMD (Multiple Instruction, Multiple Data)
+   - Every processor works independently.
+   - Shared Memory: All CPUs see one RAM (OpenMP).
+   - Distributed Memory: Each CPU has private RAM; uses messages (MPI).
+
+4. SUMMARY
+   - SIMD = Classroom (One teacher, many students).
+   - MIMD = Company (Many employees, many different roles).
+--------------------------------------------------
